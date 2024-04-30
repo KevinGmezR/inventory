@@ -1,0 +1,132 @@
+#body_inventary{
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    display: flex;
+}
+#filtro{
+    width: 245px;
+    height: 430px;
+    background-color: #2E414D;
+    margin-left: 20px;
+    border-radius: 25px;
+    margin-right: 15px;
+    box-shadow: 1px 1px 5px #39db7c99;
+    padding: 2px 7px;
+}
+.contenedor_de_productos{
+    background-color: #2E414D;
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    border-radius: 30px;
+    padding: 20px 0;
+    align-items: center;
+    margin: 20px;
+    box-shadow: #39DB7D 1px 1px 6px;
+    cursor: pointer;
+}
+.productos{
+    display: flex;
+    align-items: center;
+}
+.labelProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+}
+.infoProduct{
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.infoProduct h4{
+    margin-bottom: 30px;
+}
+.imgDelProducto{
+    height: 80px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.variantesProduct{
+    background-color: rgb(23, 123, 223);
+    color: #0f171a;
+    padding: 2px 4px;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: auto;
+    min-width: 80px;
+    text-align: center;
+}
+.cantInStock{
+    color: #a1a6a9;
+    width: auto;
+    min-width: 280px;
+}
+.inStock{
+    color: white;
+}
+.priceContent{
+    margin-left: 90px;
+    text-align: center;
+}
+.valorString{
+    font-size: 20px;
+}
+#productosList{
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    user-select: none;
+}
+.hdFilter{
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+.statusSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.status{
+   
+    padding: 2px 7px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 300ms;
+    border: 2px solid #565f65;
+    margin: 3px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.addCategory{
+    padding: 5px 5px;
+    border-radius: 50%;
+    border: 2px solid #565f65;
+}
+.addCategory:hover{
+    color: #39DB7D;
+    border: 2px solid #39DB7D;
+}
+.status:hover{
+    color: #39DB7D;
+    border: 2px solid #39DB7D;
+
+}
+.numerosFiltro{
+    background-color: #39DB7D;
+    color: #565f65;
+    padding: 0px 4px;
+    border-radius: 5px;
+    margin-left: 5px;
+}

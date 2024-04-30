@@ -1,0 +1,329 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1A262D;
+    color: white;
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    
+}
+h2{
+    user-select: none;
+}
+h3{
+    user-select: none;
+}
+h5{
+    user-select: none;
+}
+#fechaYHora{
+    padding: 10px 5px;
+    user-select: none;
+    background-color: #0F171a;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+}
+.logo{
+    height: 120px;
+    margin-left: 30px;
+    margin-top: 10px;
+    position: absolute;
+    left: -10px;
+    padding: 29px 30px;
+    background-color: #0F171a;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    z-index: 1;
+    box-shadow: #0F171a 1px 1px 4px;
+}
+#todos_los_productos_stock{
+    user-select: none;
+    width: auto;
+    max-width: 200px;
+    height: auto;
+    padding: 1px 10px;
+    border: 2px solid #78848b;
+    border-radius: 12px;
+    color: #78848b;
+    text-align: center;
+    margin-top: 13px;
+    margin-left: 9px;
+    font-size: 12px;
+    margin-right: 90px;
+    position: relative;
+    top: 30px;
+    z-index: 3;
+}
+.todosP{
+    width: 150px;
+}
+#totalProductos{
+    color: white;
+}
+#contenedor_buscar{
+    display: flex;
+    width: auto;
+    max-width: 500px;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    border: 2px solid #2E414d;
+    background-color: #0F171a;
+    padding: 1px 5px;
+    border-radius: 10px;
+    margin-right: 70px;
+}
+#contenedor_buscar div{
+    margin: 0 4px;
+}
+#lupaSearchItem{
+    user-select: none;
+    cursor: pointer;
+}
+#buscar{
+    padding: 3px 3px;
+    background-color: transparent;
+    width: 360px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.linea_separador{
+    width: 1PX;
+    height: 25px;
+    background-color: #364752;
+    border-radius: 2PX;
+    color: #364752;
+    margin-right: 5px;
+
+}
+#barcode{
+    height: auto;
+    width: auto;
+    display: flex;
+    text-align: center;
+    padding: 0 3px;
+    user-select: none;
+    cursor: pointer;
+}
+#barcode:hover{
+    background-color: #39DB7D;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 0;
+    padding: 3px 5px;
+}
+#barcode:hover #barcode_icon{
+    color: #0F171a;
+
+
+}
+#barcode_icon{
+    color: #39DB7D;
+    margin-right: 7px;
+}
+#inventory_mode{
+    width: auto;
+    max-width: 90px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #283943;
+    margin-right: 40px;
+}
+#inventory_mode .material-symbols-outlined{
+    user-select: none;
+    cursor: pointer;
+    padding: 4px 7px;
+    border-radius: 9px;
+    
+}
+#list_mode{
+    color: #39DB7D;
+    border: 2.2px solid #39DB7D;
+    margin-right: 7px;
+}
+.material-symbols-outlined{
+    user-select: none;
+    cursor: pointer;
+}
+.deleteProducto{
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 4px;
+    color: #39DB7D;
+    position: absolute;
+    top: 17%;
+    left: 90%;
+
+    border-radius: 50%;
+}
+.deleteProducto:hover{
+    background-color: #364752;
+    box-shadow: #39DB7D 1px 0 5px;
+}
+#inventory_mode .material-symbols-outlined:hover{
+    border: 2.2px solid #39DB7D;
+    color: #39DB7D;
+}
+#añadir_productoAncore{
+    width: auto;
+    max-width: 150px;
+    text-align: center;
+    padding: 7px 7px;
+    background-color: #39DB7D;
+    color: #0F171a;
+    border-radius: 9px;
+    font-weight: 900;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 25px;
+}
+#line3Info{
+    display: flex;
+    align-items: center;
+    border-bottom: #0f171a0e 2px solid;
+    box-shadow: #0F171a 1px 1px 5px;
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+#h2Product{
+    margin-left: 30px;
+    margin-right: 25px;
+    font-size: 25px;
+    position: relative;
+    top: 55px;
+    margin-bottom: 20px;
+    z-index: auto;
+}
+#ordenarPor{
+    background-color: #567588;
+    border: 2.5px solid #364752;
+    color: white;
+    outline: none;
+    padding: 7px 4px;
+    margin-left: 25px;
+    border-radius: 10px;
+    width: 220px;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+}
+.headerWithIcon{
+    margin-left: 25px;
+    display: flex;
+    width: 180px;
+    height: 60px;
+    align-items: center;
+    justify-content: left;
+}
+.iconFilter{
+    margin-right: 7px;
+}
+#stockAlert{
+    background-color: #567588;
+    padding: 5px 2px;
+    border: 2px solid #2E414d;
+    border-radius: 10px;
+    color: white;
+    margin-left: 25px;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+}
+#categoriasSelect{
+    display: flex;
+}
+#categoryNew{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    width: 500px;
+    height: 120px;
+    color: #141c22;
+}
+#categoryNew label{
+    margin-bottom: 15px;
+    font-weight: 800;
+    color: #39DB7D;
+}
+#categoryNew input{
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #39DB7D;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+}
+#categoryNew input::-webkit-input-placeholder{
+    color: rgb(147, 147, 147);
+}
+#formCategory{
+    width: 300px;
+    height: 140px;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0F171a;
+    border-radius: 25px;
+    border: 2px solid #39DB7D;
+    z-index: 30;
+}
+#botones{
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.btnsCategory{
+    color: #0F171a;
+    border-radius: 15px;
+    transition: 100ms;
+    padding: 5px 5px;
+    cursor: pointer;
+    user-select: none;
+    background-color: white;
+    margin:auto;
+
+}
+.btnsCategory:hover{
+    background-color: #39DB7D;
+    color: white;
+    font-weight: 500;
+}
+#capaBody{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    backdrop-filter:blur(100px);
+    z-index: 5;
+}
+.userImg{
+    height: 50px;
+    width: 50px;
+    background-color: #39DB7D;
+    padding: 5px 5px;
+    border-radius: 50%;
+}
